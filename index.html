@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="roffyboss is a super simple portfolio theme for Calligraphy.">
+  <link href="/dist/output.css" rel="stylesheet">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="roffyboss">
+  <meta name="twitter:description" content="Calligraphy websites.">
+  <meta name="twitter:image:src" content="https://hilton-jekyll.netlify.app/images/01.jpg">
+  <!-- Ionicons -->
+  <link rel="preload" href="./Hilton_files/ionicons.min.css" as="style">
+  <link href="./Hilton_files/ionicons.min.css" rel="stylesheet">
+  <title>roffyboss</title>
+  <style id="lightense-images-css">
+    :root {
+      --lightense-z-index: 999999;
+      --lightense-backdrop: var(--bg-color-80, rgba(255, 255, 255, .98));
+      --lightense-duration: 300ms;
+      --lightense-timing-func: cubic-bezier(.2, 0, .1, 1);
+    }
+
+    .lightense-backdrop {
+      box-sizing: border-box;
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+      z-index: calc(var(--lightense-z-index) - 1);
+      padding: 0;
+      margin: 0;
+      transition: opacity var(--lightense-duration) ease;
+      cursor: zoom-out;
+      opacity: 0;
+      background-color: var(--lightense-backdrop);
+      visibility: hidden;
+    }
+
+    @supports (-webkit-backdrop-filter: blur(30px)) {
+      .lightense-backdrop {
+        background-color: var(--lightense-backdrop);
+        -webkit-backdrop-filter: blur(30px);
+      }
+    }
+
+    @supports (backdrop-filter: blur(30px)) {
+      .lightense-backdrop {
+        background-color: var(--lightense-backdrop);
+        backdrop-filter: blur(30px);
+      }
+    }
+
+    .lightense-wrap {
+      position: relative;
+      transition: transform var(--lightense-duration) var(--lightense-timing-func);
+      z-index: var(--lightense-z-index);
+      pointer-events: none;
+    }
+
+    .lightense-target {
+      cursor: zoom-in;
+      transition: transform var(--lightense-duration) var(--lightense-timing-func);
+      pointer-events: auto;
+    }
+
+    .lightense-open {
+      cursor: zoom-out;
+    }
+
+    .lightense-transitioning {
+      pointer-events: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- begin header -->
+  <header class="header" id="top">
+    <div class="container-big">
+      <div class="row">
+        <div class="header__inner col col-12">
+
+          <div class="logo">
+            <a class="logo__link" href="https://hilton-jekyll.netlify.app/">
+
+              RoyyBoss
+
+            </a>
+          </div>
+
+          <nav class="main-nav">
+            <div class="main-nav__box">
+              <div class="nav__icon-close">
+                <i class="ion ion-md-close"></i>
+              </div>
+              <div class="nav__title">Menu</div>
+              <ul class="nav__list list-reset">
+
+
+
+                <li class="nav__item">
+                  <a href="https://hilton-jekyll.netlify.app/" class="nav__link active-link">Home</a>
+                </li>
+
+
+
+                <li class="nav__item">
+                  <a href="https://hilton-jekyll.netlify.app/projects/" class="nav__link">Projects</a>
+                </li>
+
+
+
+                <li class="nav__item">
+                  <a href="https://hilton-jekyll.netlify.app/blog/" class="nav__link">Blog</a>
+                </li>
+
+
+
+                <li class="nav__item dropdown">
+                  <span class="nav__link dropdown-toggle">Pages <i class="ion ion-ios-arrow-down arrow-down"></i></span>
+                  <div class="dropdown-menu">
+
+                    <a href="https://hilton-jekyll.netlify.app/about/" class="nav__link">About</a>
+
+                    <a href="https://hilton-jekyll.netlify.app/contact/" class="nav__link">Contact</a>
+
+                    <a href="https://hilton-jekyll.netlify.app/elements/" class="nav__link">Elements</a>
+
+                  </div>
+                </li>
+
+
+              </ul>
+            </div>
+          </nav>
+
+          <div class="nav-button">
+            <i class="nav__icon icon__menu ion ion-md-menu"></i>
+
+
+            <div class="toggle-theme toggle-theme-js">
+              <div class="toggle-moon" title="Enable dark mode"><i class="ion ion-ios-moon"></i></div>
+              <div class="toggle-sun" title="Enable light mode"><i class="ion ion-ios-sunny"></i></div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- end header -->
+
+  <!-- begin content -->
+  <main class="content" aria-label="Content">
+    <!-- begin hero -->
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col col-12">
+            <div class="hero__inner">
+
+              <div class="hero__left">
+                <div class="hero__image">
+                  <img class="lazy loaded" alt="Monica Hilton&#39;s Picture" data-ll-status="loaded"
+                    src="./Hilton_files/roffy 1 (1).jpg">
+                </div>
+              </div>
+
+              <div class="hero__right">
+                <h1 class="hero__title">I'm Rofiat. I will create design that can give you value</h1>
+                <p class="hero__description">So, If you're looking for designs that have a high visual impact on your
+                  target audience, while also aligning with your brand, Let's talk about your project in more detail.
+                </p>
+
+                <div class="hero__subscribe">
+                  <form class="subscribe-form validate"
+                    action="https://frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3"
+                    method="POST" id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank"
+                    novalidate="">
+                    <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
+                    <input class="subscribe-email required email" id="mce-EMAIL" type="text" name="EMAIL"
+                      placeholder="Your email address...">
+                    <button class="button button--primary button--small subscribe-button" id="membedded-subscribe"
+                      type="submit" name="subscribe">Get updates</button>
+                  </form>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end hero -->
+
+    <!-- begin projects -->
+    <section class="section projects animate">
+      <div class="container">
+        <div class="row">
+          <div class="col col-12">
+            <div class="contaniner__inner">
+
+              <div class="section__info">
+                <h2 class="section__title">Latest works</h2>
+
+                <p class="section__description">I Design only the best Calligraphy Designs with
+                  passion, simplicity &amp; creativity!</p>
+
+              </div>
+
+              <div class="row">
+
+
+                <article class="project col col-4 col-d-6 col-t-12">
+                  <div class="project__content">
+                    <a href="https://hilton-jekyll.netlify.app/project/script-using-pencil" class="project__image">
+                      <img class="lazy loaded" alt="Script Using Pencil" data-ll-status="loaded"
+                        src="./Hilton_files/WhatsApp Image 2023-01-29 at 10.09.46 (1).jpeg">
+                    </a>
+                    <div class="project__info">
+                      <h3 class="project__title"><a
+                          href="https://hilton-jekyll.netlify.app/project/script-using-pencil">Script Using Pencil</a>
+                      </h3>
+
+                      <div class="project__subtitle">Calligraphy</div>
+
+                    </div>
+                  </div>
+                </article>
+
+                <article class="project col col-4 col-d-6 col-t-12">
+                  <div class="project__content">
+                    <a href="https://hilton-jekyll.netlify.app/project/how-we-live" class="project__image">
+                      <img class="lazy loaded" alt="How We Live" data-ll-status="loaded"
+                        src="./Hilton_files/WhatsApp Image 2023-01-29 at 10.09.44.jpeg">
+                    </a>
+                    <div class="project__info">
+                      <h3 class="project__title"><a href="https://hilton-jekyll.netlify.app/project/how-we-live">How We
+                          Live</a></h3>
+
+                      <div class="project__subtitle">Letterign</div>
+
+                    </div>
+                  </div>
+                </article>
+
+                <article class="project col col-4 col-d-6 col-t-12">
+                  <div class="project__content">
+                    <a href="https://hilton-jekyll.netlify.app/project/be-water-my-friend" class="project__image">
+                      <img class="lazy loaded" alt="Be Water My Friend" data-ll-status="loaded"
+                        src="./Hilton_files/WhatsApp Image 2023-01-29 at 10.09.45 (1).jpeg">
+                    </a>
+                    <div class="project__info">
+                      <h3 class="project__title"><a
+                          href="https://hilton-jekyll.netlify.app/project/be-water-my-friend">Be Water My Friend</a>
+                      </h3>
+
+                      <div class="project__subtitle">Quotes</div>
+
+                    </div>
+                  </div>
+                </article>
+
+                <article class="project col col-4 col-d-6 col-t-12">
+                  <div class="project__content">
+                    <a href="https://hilton-jekyll.netlify.app/project/make-you-jealous" class="project__image">
+                      <img class="lazy loaded" alt="Make You Jealous" data-ll-status="loaded"
+                        src="./Hilton_files/WhatsApp Image 2023-01-29 at 10.09.45 (2).jpeg">
+                    </a>
+                    <div class="project__info">
+                      <h3 class="project__title"><a
+                          href="https://hilton-jekyll.netlify.app/project/make-you-jealous">Make You Jealous</a></h3>
+
+                      <div class="project__subtitle">Letterign</div>
+
+                    </div>
+                  </div>
+                </article>
+
+                <article class="project col col-4 col-d-6 col-t-12">
+                  <div class="project__content">
+                    <a href="https://hilton-jekyll.netlify.app/project/the-best-sentence" class="project__image">
+                      <img class="lazy loaded" alt="The Best Sentence" data-ll-status="loaded"
+                        src="./Hilton_files/WhatsApp Image 2023-01-29 at 10.09.45.jpeg">
+                    </a>
+                    <div class="project__info">
+                      <h3 class="project__title"><a
+                          href="https://hilton-jekyll.netlify.app/project/the-best-sentence">The Best Sentence</a></h3>
+
+                      <div class="project__subtitle">Lettering</div>
+
+                    </div>
+                  </div>
+                </article>
+
+                <article class="project col col-4 col-d-6 col-t-12">
+                  <div class="project__content">
+                    <a href="https://hilton-jekyll.netlify.app/project/ride-my-bike" class="project__image">
+                      <img class="lazy loaded" alt="Ride My Bike" data-ll-status="loaded"
+                        src="./Hilton_files/WhatsApp Image 2023-01-29 at 10.09.46.jpeg">
+                    </a>
+                    <div class="project__info">
+                      <h3 class="project__title"><a href="https://hilton-jekyll.netlify.app/project/ride-my-bike">Ride
+                          My Bike</a></h3>
+
+                      <div class="project__subtitle">Procreate</div>
+
+                    </div>
+                  </div>
+                </article>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section__navigation">
+        <a href="https://hilton-jekyll.netlify.app/projects" class="button button--primary section-button">See all</a>
+      </div>
+    </section>
+    <!-- end projects -->
+
+    <!-- begin testimonials -->
+    <section class="section testimonials animate">
+      <div class="container">
+        <div class="row">
+          <div class="col col-12">
+
+            <div class="section__info">
+              <div class="section__head">
+                <h2 class="section__title">What clients say</h2>
+              </div>
+
+            </div>
+
+            <div class="tns-outer" id="tns1-ow">
+              <div class="tns-nav" aria-label="Carousel Pagination"><button type="button" data-nav="0"
+                  aria-controls="tns1" style="" aria-label="Carousel Page 1 (Current Slide)"
+                  class="tns-nav-active"></button><button type="button" data-nav="1" tabindex="-1" aria-controls="tns1"
+                  style="" aria-label="Carousel Page 2"></button><button type="button" data-nav="2" tabindex="-1"
+                  aria-controls="tns1" style="display: none;" aria-label="Carousel Page 3"></button><button
+                  type="button" data-nav="3" tabindex="-1" aria-controls="tns1" style="display:none"
+                  aria-label="Carousel Page 4"></button><button type="button" data-nav="4" tabindex="-1"
+                  aria-controls="tns1" style="display:none" aria-label="Carousel Page 5"></button></div>
+              <div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span
+                  class="current">6 to 8</span> of 5</div>
+              <div id="tns1-mw" class="tns-ovh">
+                <div class="tns-inner" id="tns1-iw">
+                  <div
+                    class="testimonials__slider my-slider  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal"
+                    id="tns1" style="transition-duration: 0s; transform: translate3d(-33.3333%, 0px, 0px);">
+                    <div class="testimonial-item tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+                      <div class="testimonial-content">
+                        <div class="client-meta">
+
+                          <div class="image-container">
+                            <img class="client-avatar" src="./Hilton_files/IMG_2950.jpg" alt="Aspen Carder"
+                              loading="lazy">
+                          </div>
+
+                          <div class="client-info">
+
+                            <h3 class="client-name">
+
+                              <a href="https://twitter.com/" target="_blank" rel="noopener">Mr West</a>
+
+                            </h3>
+
+
+                            <p class="client-designation">Lettering Artist</p>
+
+                          </div>
+
+                          <p class="client-text">Keeping your eye on the ball while performing a deep dive on the
+                            start-up mentality to derive convergence on cross-platform integration</p>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="testimonial-item tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+                      <div class="testimonial-content">
+                        <div class="client-meta">
+
+                          <div class="image-container">
+                            <img class="client-avatar" src="./Hilton_files/IMG_2950.jpg" alt="Yusuf Olatunji Adeshina
+                              loading="lazy">
+                          </div>
+
+                          <div class="client-info">
+
+                            <h3 class="client-name">
+
+                              <a href="https://facebook.com/" target="_blank" rel="noopener">Mr West</a>
+
+                            </h3>
+
+
+                            <p class="client-designation">Designer</p>
+
+                          </div>
+
+                          <p class="client-text">Keeping your eye on the ball while performing a deep dive on the
+                            start-up mentality to derive convergence on cross-platform integration</p>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="testimonial-item tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+                      <div class="testimonial-content">
+                        <div class="client-meta">
+
+                          <div class="image-container">
+                            <img class="client-avatar" src="./Hilton_files/IMG_2950.jpg" alt="Craig Vaccaro"
+                              loading="lazy">
+                          </div>
+
+                          <div class="client-info">
+
+                            <h3 class="client-name">
+
+                              <a href="https://twitter.com/" target="_blank" rel="noopener">Mr West</a>
+
+                            </h3>
+
+
+                            <p class="client-designation">Web developer</p>
+
+                          </div>
+
+                          <p class="client-text">Keeping your eye on the ball while performing a deep dive on the
+                            start-up mentality to derive convergence on cross-platform integration</p>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="testimonial-item tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+                      <div class="testimonial-content">
+                        <div class="client-meta">
+
+                          <div class="image-container">
+                            <img class="client-avatar" src="./Hilton_files/IMG_2950.jpg" alt="Anika Calzoni"
+                              loading="lazy">
+                          </div>
+
+                          <div class="client-info">
+
+                            <h3 class="client-name">
+
+                              <a href="https://facebook.com/" target="_blank" rel="noopener">Mr West</a>
+
+                            </h3>
+
+
+                            <p class="client-designation">Lettering Artist</p>
+
+                          </div>
+
+                          <p class="client-text">Keeping your eye on the ball while performing a deep dive on the
+                            start-up mentality to derive convergence on cross-platform integration</p>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="testimonial-item tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+                      <div class="testimonial-content">
+                        <div class="client-meta">
+
+                          <div class="image-container">
+                            <img class="client-avatar" src="./Hilton_files/IMG_2950.jpg" alt="Marcus Botosh"
+                              loading="lazy">
+                          </div>
+
+                          <div class="client-info">
+
+                            <h3 class="client-name">
+
+                              <a href="https://twitter.com/" target="_blank" rel="noopener">Mr West</a>
+
+                            </h3>
+
+
+                            <p class="client-designation">Full Stack Designer</p>
+
+                          </div>
+
+                          <p class="client-text">Keeping your eye on the ball while performing a deep dive on the
+                            start-up mentality to derive convergence on cross-platform integration</p>
+
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="testimonial-item tns-item tns-slide-active" id="tns1-item0">
+                      <div class="testimonial-content">
+                        <div class="client-meta">
+
+                          <div class="image-container">
+                            <img class="client-avatar" src="./Hilton_files/IMG_2950.jpg" alt="Aspen Carder"
+                              loading="lazy">
+                          </div>
+
+                          <div class="client-info">
+
+                            <h3 class="client-name">
+
+                              <a href="https://twitter.com/" target="_blank" rel="noopener">Mr West</a>
+
+                            </h3>
+
+
+                            <p class="client-designation">Lettering Artist</p>
+
+                          </div>
+
+                          <p class="client-text">Keeping your eye on the ball while performing a deep dive on the
+                            start-up mentality to derive convergence on cross-platform integration</p>
+
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="testimonial-item tns-item tns-slide-active" id="tns1-item1">
+                      <div class="testimonial-content">
+                        <div class="client-meta">
+
+                          <div class="image-container">
+                            <img class="client-avatar" src="./Hilton_files/IMG_2950.jpg" alt="Lydia Siphron"
+                              loading="lazy">
+                          </div>
+
+                          <div class="client-info">
+
+                            <h3 class="client-name">
+
+                              <a href="https://facebook.com/" target="_blank" rel="noopener">Mr West</a>
+
+                            </h3>
+
+
+                            <p class="client-designation">Designer</p>
+
+                          </div>
+
+                          <p class="client-text">Keeping your eye on the ball while performing a deep dive on the
+                            start-up mentality to derive convergence on cross-platform integration</p>
+
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="testimonial-item tns-item tns-slide-active" id="tns1-item2">
+                      <div class="testimonial-content">
+                        <div class="client-meta">
+
+                          <div class="image-container">
+                            <img class="client-avatar" src="./Hilton_files/IMG_2950.jpg" alt="Craig Vaccaro"
+                              loading="lazy">
+                          </div>
+
+                          <div class="client-info">
+
+                            <h3 class="client-name">
+
+                              <a href="https://twitter.com/" target="_blank" rel="noopener">Mr West</a>
+
+                            </h3>
+
+
+                            <p class="client-designation">Web developer</p>
+
+                          </div>
+
+                          <p class="client-text">Keeping your eye on the ball while performing a deep dive on the
+                            start-up mentality to derive convergence on cross-platform integration</p>
+
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="testimonial-item tns-item" id="tns1-item3" aria-hidden="true" tabindex="-1">
+                      <div class="testimonial-content">
+                        <div class="client-meta">
+
+                          <div class="image-container">
+                            <img class="client-avatar" src="./Hilton_files/IMG_2950.jpg" alt="Anika Calzoni"
+                              loading="lazy">
+                          </div>
+
+                          <div class="client-info">
+
+                            <h3 class="client-name">
+
+                              <a href="https://facebook.com/" target="_blank" rel="noopener">Mr West</a>
+
+                            </h3>
+
+
+                            <p class="client-designation">Lettering Artist</p>
+
+                          </div>
+
+                          <p class="client-text">Keeping your eye on the ball while performing a deep dive on the
+                            start-up mentality to derive convergence on cross-platform integration</p>
+
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="testimonial-item tns-item" id="tns1-item4" aria-hidden="true" tabindex="-1">
+                      <div class="testimonial-content">
+                        <div class="client-meta">
+
+                          <div class="image-container">
+                            <img class="client-avatar" src="./Hilton_files/IMG_2950.jpg" alt="Marcus Botosh"
+                              loading="lazy">
+                          </div>
+
+                          <div class="client-info">
+
+                            <h3 class="client-name">
+
+                              <a href="https://twitter.com/" target="_blank" rel="noopener">Mr West</a>
+
+                            </h3>
+
+
+                            <p class="client-designation">Full Stack Designer</p>
+
+                          </div>
+
+                          <p class="client-text">Keeping your eye on the ball while performing a deep dive on the
+                            start-up mentality to derive convergence on cross-platform integration</p>
+
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="testimonial-item tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+                      <div class="testimonial-content">
+                        <div class="client-meta">
+
+                          <div class="image-container">
+                            <img class="client-avatar" src="./Hilton_files/IMG_2950.jpg" alt="Aspen Carder"
+                              loading="lazy">
+                          </div>
+
+                          <div class="client-info">
+
+                            <h3 class="client-name">
+
+                              <a href="https://twitter.com/" target="_blank" rel="noopener">Mr West</a>
+
+                            </h3>
+
+
+                            <p class="client-designation">Lettering Artist</p>
+
+                          </div>
+
+                          <p class="client-text">Keeping your eye on the ball while performing a deep dive on the
+                            start-up mentality to derive convergence on cross-platform integration</p>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="testimonial-item tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+                      <div class="testimonial-content">
+                        <div class="client-meta">
+
+                          <div class="image-container">
+                            <img class="client-avatar" src="./Hilton_files/IMG_2950.jpg" alt="Lydia Siphron"
+                              loading="lazy">
+                          </div>
+
+                          <div class="client-info">
+
+                            <h3 class="client-name">
+
+                              <a href="https://facebook.com/" target="_blank" rel="noopener">Mr West</a>
+
+                            </h3>
+
+
+                            <p class="client-designation">Designer</p>
+
+                          </div>
+
+                          <p class="client-text">Keeping your eye on the ball while performing a deep dive on the
+                            start-up mentality to derive convergence on cross-platform integration</p>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="testimonial-item tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+                      <div class="testimonial-content">
+                        <div class="client-meta">
+
+                          <div class="image-container">
+                            <img class="client-avatar" src="./Hilton_files/IMG_2950.jpg" alt="Craig Vaccaro"
+                              loading="lazy">
+                          </div>
+
+                          <div class="client-info">
+
+                            <h3 class="client-name">
+
+                              <a href="https://twitter.com/" target="_blank" rel="noopener">Mr West</a>
+
+                            </h3>
+
+
+                            <p class="client-designation">Web developer</p>
+
+                          </div>
+
+                          <p class="client-text">Keeping your eye on the ball while performing a deep dive on the
+                            start-up mentality to derive convergence on cross-platform integration</p>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="testimonial-item tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+                      <div class="testimonial-content">
+                        <div class="client-meta">
+
+                          <div class="image-container">
+                            <img class="client-avatar" src="./Hilton_files/IMG_2950.jpg" alt="Anika Calzoni"
+                              loading="lazy">
+                          </div>
+
+                          <div class="client-info">
+
+                            <h3 class="client-name">
+
+                              <a href="https://facebook.com/" target="_blank" rel="noopener">Mr West</a>
+
+                            </h3>
+
+
+                            <p class="client-designation">Lettering Artist</p>
+
+                          </div>
+
+                          <p class="client-text">Keeping your eye on the ball while performing a deep dive on the
+                            start-up mentality to derive convergence on cross-platform integration</p>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="testimonial-item tns-item tns-slide-cloned" aria-hidden="true" tabindex="-1">
+                      <div class="testimonial-content">
+                        <div class="client-meta">
+
+                          <div class="image-container">
+                            <img class="client-avatar" src="./Hilton_files/IMG_2950.jpg" alt="Marcus Botosh"
+                              loading="lazy">
+                          </div>
+
+                          <div class="client-info">
+
+                            <h3 class="client-name">
+
+                              <a href="https://twitter.com/" target="_blank" rel="noopener">Mr West</a>
+
+                            </h3>
+
+
+                            <p class="client-designation">Full Stack Designer</p>
+
+                          </div>
+
+                          <p class="client-text">Keeping your eye on the ball while performing a deep dive on the
+                            start-up mentality to derive convergence on cross-platform integration</p>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end testimonials -->
+
+    <!-- begin blog -->
+    <section class="section blog animate">
+      <div class="container">
+        <div class="row">
+          <div class="col col-12">
+            <div class="contaniner__inner">
+
+              <div class="section__info">
+                <div class="section__head">
+                  <h2 class="section__title">Recent Posts</h2>
+                </div>
+
+              </div>
+
+              <div class="row">
+
+
+                <div class="article col col-4 col-d-6 col-t-12">
+
+
+                  <a class="article__image"
+                    href="https://hilton-jekyll.netlify.app/blog/that-which-does-not-kill-us-makes-us-stronger">
+                    <img class="lazy loaded" alt="That which does not kill us makes us stronger" data-ll-status="loaded"
+                      src="./Hilton_files/02.jpg">
+                  </a>
+
+
+
+                  <div class="article-tags__box">
+
+                    <a href="https://hilton-jekyll.netlify.app/tags/?tag=workflow" class="article__tag">workflow</a>
+
+                    <a href="https://hilton-jekyll.netlify.app/tags/?tag=notes" class="article__tag">notes</a>
+
+                    <a href="https://hilton-jekyll.netlify.app/tags/?tag=study" class="article__tag">study</a>
+
+                  </div>
+
+
+                  <h2 class="article__title">
+                    <a href="https://hilton-jekyll.netlify.app/blog/that-which-does-not-kill-us-makes-us-stronger">That
+                      which does not kill us makes us stronger</a>
+                  </h2>
+
+                  <div class="article__meta">
+                    <div class="article-info">
+                      <a href="https://hilton-jekyll.netlify.app/about/" class="article__author-link">Rofiat💙 Ahmad</a>
+                      –
+                      <time class="article__date" datetime="2020-11-14T12:01:35+00:00">14 Nov 2020</time>
+                    </div>
+                  </div>
+
+                  <p class="article__excerpt">
+                    Bring to the table win-win survival strategies to ensure proactive domination. At the end of the
+                    day, going forward, a new normal that. Capitalize on low hanging fruit to identify a ballpark value
+                    activity to beta test. Override the digital divide with additional.
+                  </p>
+                </div>
+
+                <div class="article col col-4 col-d-6 col-t-12">
+
+
+                  <a class="article__image"
+                    href="https://hilton-jekyll.netlify.app/blog/do-what-you-can-with-what-you-have-where-you-are">
+                    <img class="lazy loaded" alt="Do what you can, with what you have, where you are"
+                      data-ll-status="loaded" src="./Hilton_files/03.jpg">
+                  </a>
+
+
+
+                  <div class="article-tags__box">
+
+                    <a href="https://hilton-jekyll.netlify.app/tags/?tag=lifestyle" class="article__tag">lifestyle</a>
+
+                    <a href="https://hilton-jekyll.netlify.app/tags/?tag=travel" class="article__tag">travel</a>
+
+                    <a href="https://hilton-jekyll.netlify.app/tags/?tag=story" class="article__tag">story</a>
+
+                  </div>
+
+
+                  <h2 class="article__title">
+                    <a href="https://hilton-jekyll.netlify.app/blog/do-what-you-can-with-what-you-have-where-you-are">Do
+                      what you can, with what you have, where you are</a>
+                  </h2>
+
+                  <div class="article__meta">
+                    <div class="article-info">
+                      <a href="https://hilton-jekyll.netlify.app/about/" class="article__author-link">Rofiat💙 Ahmad</a>
+                      –
+                      <time class="article__date" datetime="2020-11-12T12:01:35+00:00">12 Nov 2020</time>
+                    </div>
+                  </div>
+
+                  <p class="article__excerpt">
+                    Bring to the table win-win survival strategies to ensure proactive domination. At the end of the
+                    day, going forward, a new normal that. Capitalize on low hanging fruit to identify a ballpark value
+                    activity to beta test. Override the digital divide with additional.
+                  </p>
+                </div>
+
+                <div class="article col col-4 col-d-6 col-t-12">
+
+
+                  <a class="article__image"
+                    href="https://hilton-jekyll.netlify.app/blog/if-you-cannot-do-great-things-do-small-things-in-a-great-way">
+                    <img class="lazy loaded" alt="If you cannot do great things, do small things in a great way"
+                      data-ll-status="loaded" src="./Hilton_files/04.jpg">
+                  </a>
+
+
+
+                  <div class="article-tags__box">
+
+                    <a href="https://hilton-jekyll.netlify.app/tags/?tag=lifestyle" class="article__tag">lifestyle</a>
+
+                    <a href="https://hilton-jekyll.netlify.app/tags/?tag=rest" class="article__tag">rest</a>
+
+                    <a href="https://hilton-jekyll.netlify.app/tags/?tag=notes" class="article__tag">notes</a>
+
+                  </div>
+
+
+                  <h2 class="article__title">
+                    <a
+                      href="https://hilton-jekyll.netlify.app/blog/if-you-cannot-do-great-things-do-small-things-in-a-great-way">If
+                      you cannot do great things, do small things in a great way</a>
+                  </h2>
+
+                  <div class="article__meta">
+                    <div class="article-info">
+                      <a href="https://hilton-jekyll.netlify.app/about/" class="article__author-link">Rofiat💙 Ahmad</a>
+                      –
+                      <time class="article__date" datetime="2020-11-11T12:01:35+00:00">11 Nov 2020</time>
+                    </div>
+                  </div>
+
+                  <p class="article__excerpt">
+                    Bring to the table win-win survival strategies to ensure proactive domination. At the end of the
+                    day, going forward, a new normal that. Capitalize on low hanging fruit to identify a ballpark value
+                    activity to beta test. Override the digital divide with additional.
+                  </p>
+                </div>
+
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section__navigation">
+        <a href="https://hilton-jekyll.netlify.app/blog" class="button button--primary section-button">See all</a>
+      </div>
+    </section>
+    <!-- end blog -->
+  </main>
+  <!-- end content -->
+
+  <!-- begin footer -->
+  <footer class="footer">
+
+    <div class="footer__gallery">
+
+      <div class="gallery">
+
+        <div class="gallery__image">
+          <img src="./Hilton_files/gallery-1.jpg" alt="Rest" loading="lazy" class="lightense-target">
+        </div>
+
+        <div class="gallery__image">
+          <img src="./Hilton_files/gallery-2.jpg" alt="Lifestyle" loading="lazy" class="lightense-target">
+        </div>
+
+        <div class="gallery__image">
+          <img src="./Hilton_files/gallery-3.jpg" alt="Hobby" loading="lazy" class="lightense-target">
+        </div>
+
+        <div class="gallery__image">
+          <img src="./Hilton_files/gallery-4.jpg" alt="Notes" loading="lazy" class="lightense-target">
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+
+          <div class="footer__inner">
+            <div class="container">
+              <div class="row">
+
+                <div class="col col-8 col-d-12">
+                  <div class="footer__author">
+                    <div class="footer__author-avatar">
+                      <img class="lazy loaded" alt="Monica Hilton" data-ll-status="loaded"
+                        src="./Hilton_files/roffy 1 (3).jpg">
+                    </div>
+                    <div class="footer__author-info">
+                      <h3 class="footer__author-name">Rofiat Ahmad</h3>
+                      <p class="footer__author-bio">So, If you're looking for designs that have a high visual impact on
+                        your target audience, while also aligning with your brand, Let's talk about your project in more
+                        detail.</p>
+
+                      <div class="social">
+                        <ul class="social__list list-reset">
+
+                          <li class="social__item">
+                            <a class="social__link" href="https://twitter.com/" target="_blank" rel="noopener"
+                              aria-label="Social link"><i class="ion ion-logo-twitter"></i></a>
+                          </li>
+
+                          <li class="social__item">
+                            <a class="social__link" href="https://facebook.com/" target="_blank" rel="noopener"
+                              aria-label="Social link"><i class="ion ion-logo-facebook"></i></a>
+                          </li>
+
+                          <li class="social__item">
+                            <a class="social__link" href="https://instagram.com/" target="_blank" rel="noopener"
+                              aria-label="Social link"><i class="ion ion-logo-instagram"></i></a>
+                          </li>
+
+                          <li class="social__item">
+                            <a class="social__link" href="https://pinterest.com/" target="_blank" rel="noopener"
+                              aria-label="Social link"><i class="ion ion-logo-pinterest"></i></a>
+                          </li>
+
+                          <li class="social__item">
+                            <a class="social__link" href="https://github.com/" target="_blank" rel="noopener"
+                              aria-label="Social link"><i class="ion ion-logo-github"></i></a>
+                          </li>
+
+                        </ul>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col col-4 col-d-12">
+                  <div class="footer__nav">
+                    <h3 class="footer__nav-title">Navigation</h3>
+                    <ul class="footer__nav-list list-reset">
+
+                      <li class="footer__nav-item">
+                        <a href="https://hilton-jekyll.netlify.app/" class="footer__nav-link">Home</a>
+                      </li>
+
+                      <li class="footer__nav-item">
+                        <a href="https://hilton-jekyll.netlify.app/projects/" class="footer__nav-link">Projects</a>
+                      </li>
+
+                      <li class="footer__nav-item">
+                        <a href="https://hilton-jekyll.netlify.app/blog/" class="footer__nav-link">Blog</a>
+                      </li>
+
+                      <li class="footer__nav-item">
+                        <a href="https://hilton-jekyll.netlify.app/about/" class="footer__nav-link">About</a>
+                      </li>
+
+                      <li class="footer__nav-item">
+                        <a href="https://hilton-jekyll.netlify.app/contact/" class="footer__nav-link">Contact</a>
+                      </li>
+
+                      <li class="footer__nav-item">
+                        <a href="https://hilton-jekyll.netlify.app/elements/" class="footer__nav-link">Elements</a>
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col col-12">
+          <div class="footer__info">
+            <div class="footer__info-box">
+              <div class="copyright">2022 © <a href="https://yusufolaportfolio.netlify.app/">Rofiat💙 </a>. Crafted
+                &amp;
+                Designed by <a href="https://jekyllthemes.io/developers/artem-sheludko"> Yusuf Olatunji Adeshina </a>.
+              </div>
+              <div class="top" title="Top"><i class="ion ion-ios-arrow-up"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- end footer -->
+
+  <script src="./Hilton_files/scripts.js.download"></script>
+  <script src="./Hilton_files/common.js.download"></script>
+  <script src="app.js"></script>
+
+
+  <div class="lightense-backdrop"></div>
+</body>
+
+</html>
